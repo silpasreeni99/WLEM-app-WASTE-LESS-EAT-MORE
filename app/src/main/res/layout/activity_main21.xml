@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/food7"
+    android:paddingStart="100dp"
+    android:paddingTop="100dp"
+    android:paddingEnd="100dp"
+    android:paddingBottom="50dp"
+    tools:context=".MainActivity21">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:text="@string/oranpeelhead2"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/oranpeelrec2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView25"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:gravity="start|top"
+        android:text="@string/oranpeelrec2info"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button_orancurryrec"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@id/oranpeelrec2"
+        android:layout_marginTop="20dp"
+        android:onClick="navigate10"
+        android:text="@string/info11" />
+
+</RelativeLayout>
+</ScrollView>

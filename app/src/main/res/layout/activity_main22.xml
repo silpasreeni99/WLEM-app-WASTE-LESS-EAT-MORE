@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/food6"
+    android:paddingStart="100dp"
+    android:paddingTop="100dp"
+    android:paddingEnd="100dp"
+    android:paddingBottom="50dp"
+    tools:context=".MainActivity22">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pumppeelhead1"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/pumppeelrec1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView26"
+        android:layout_marginTop="31dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:gravity="start|top"
+        android:text="@string/pumppeelrec1info"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button_pumpchut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pumppeelrec1"
+        android:layout_marginTop="38dp"
+        android:onClick="navigate11"
+        android:text="@string/info12" />
+
+</RelativeLayout>
+</ScrollView>

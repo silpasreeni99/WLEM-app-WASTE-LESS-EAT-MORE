@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha=" 0.9"
+        android:background="@drawable/food3"
+        android:paddingStart="50dp"
+        android:paddingTop="50dp"
+        android:paddingEnd="50dp"
+        android:paddingBottom="50dp"
+        tools:context=".MainActivity5">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:text="@string/productlist"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_hib"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="59dp"
+            android:background="#70FBFBFB"
+            android:fontFamily="casual"
+            android:onClick="hibrecipes"
+            android:text="@string/product1"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_banpeel"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/button_hib"
+            android:layout_marginTop="10dp"
+            android:background="#70FBFBFB"
+            android:fontFamily="casual"
+            android:onClick="banpeelrecipes"
+            android:text="@string/product2"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_banstem"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/button_banpeel"
+            android:layout_marginTop="10dp"
+            android:background="#70FBFBFB"
+            android:fontFamily="casual"
+            android:onClick="banstemrecipes"
+            android:text="@string/product3"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_rice"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/button_banstem"
+            android:layout_marginTop="10dp"
+            android:background="#70FBFBFB"
+            android:fontFamily="casual"
+            android:onClick="ricerecipes"
+            android:text="@string/product4"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_orangepeel"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/button_rice"
+            android:layout_marginTop="10dp"
+            android:background="#70FBFBFB"
+            android:fontFamily="casual"
+            android:onClick="oranpeelrecipes"
+            android:text="@string/product5"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_pumppeel"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/button_orangepeel"
+            android:layout_marginTop="10dp"
+            android:background="#70FBFBFB"
+            android:fontFamily="casual"
+            android:onClick="pumppeelrecipes"
+            android:text="@string/product6"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>
