@@ -10,6 +10,7 @@ user’s desired language(as of now , three languages
 :kannada,hindi,malayalam have been provided)
 
 Instructions:
+
 1.Clone the repository onto your desktop.
 
 2.Run the emulator and check out how the app works.(It was designed for android with specifications:Nexus 6 API 23)
